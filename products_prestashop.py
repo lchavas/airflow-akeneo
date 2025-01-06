@@ -39,7 +39,7 @@ def fetch_data_and_iterate(prev_execution_date=None):
 
     # PrestaShop API credentials
     PRESTASHOP_API_URL = "https://prestashop.groupe-fjc.com/api"
-    PRESTASHOP_API_KEY = "L81RRDIWDSLE72MZ1B5NEJCIYCFTLPPH"
+    PRESTASHOP_API_KEY = ""
     
     # Setting up the translation table for html elements (é>&eagrave; è>&eacute; ç>&ccedil; and so on)
     htmltable = {k: '&{};'.format(v) for k, v in html.entities.codepoint2name.items()}
